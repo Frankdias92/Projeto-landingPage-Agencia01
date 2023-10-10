@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: block;
+  background-color: rgba(38, 9, 9, 0.427);
+  position: relative;
+
+  font-family: 'Open Sans', sans-serif;
+}
