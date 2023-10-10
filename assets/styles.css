@@ -5,7 +5,114 @@
 body {
   display: block;
   background-color: rgba(38, 9, 9, 0.427);
+  color: white;
   position: relative;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
 }
+
+header {
+  display: block;
+  margin: auto;
+  
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-around;
+}
+
+#navBar ul {
+  display: flex;
+  list-style: none;
+  width: max-content;
+  gap: 20px;
+}
+
+.u-image {
+  overflow: visible;
+}
+
+section {
+  display: flex;
+ justify-content: flex-end;
+}
+
+.u-section-2 {
+  background-image: url("./imgs/Group1.png");
+  background-position: 50% 50%;
+}
+
+.u-group {
+  display: flex;
+  width: 662px;
+  min-height: 402px;
+  margin: 210px 0 85px 0;
+  position: relative;
+}
+
+.u-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+
+.u-valign-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 204px 0 30px;
+}
+
+.u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 55px 22x 0;
+}
+
+.u-subtitle {
+  font-weight: 400;
+  font-size: 1.87rem;
+  line-height: 1.1;
+}
+
+.u-align-right {
+  text-align: right;
+}
+
+.u-text-2 {
+  margin: 0 20px;
+}
+
+h1.u-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+}
+
+.u-text-3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.12rem;
+  margin: 20px 204px 0 30px;
+}
+
+.u-align-left {
+  text-align: left;
+}
+
+.u-line-1 {
+  width: 165px;
+  height: 20px;
+  transform-origin: right center 0;
+  margin: 30px auto 55px 30px;
+}
+
+.u-border-palette-3-base {
+  border-color: yellow;
+  background-color: yellow;
+  border-width: 20px;
+}
+
