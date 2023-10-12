@@ -93,6 +93,7 @@
         <div class="section3Img02"></div>
       </div>
     </section>
+
     <section id="section4">
       <div class="boxSection section4BoxColor1">
         <div class="alignText">
@@ -106,7 +107,6 @@
       </div>
       <div></div>
       <div class="boxSection section4BoxColor2">
-        <div class="section4Img01"></div>
         <div class="alignText">
           <h4>trabalhos</h4>
           <p>
@@ -129,12 +129,13 @@
       <div class="box3 wrap"></div>
       <div class="box4 wrap"></div>
       <div class="box5 wrap">
-        <div class="alignText box5Padding">
-          <h2>
-            Somos uma agência global que entregatransformação digital,
-            impulsionada pela criatividade.
-          </h2>
-          <button>consulte Mais informação</button>
+        <div class="alignText5">
+          <div class="section5Img03"></div>
+            <h2>
+              Somos uma agência global que  entregatransformação digital,
+              impulsionada pela criatividade.
+            </h2>
+            <button>consulte Mais informação</button>
         </div>
       </div>
     </section>
@@ -184,25 +185,31 @@
     </section>
 
     <section id="section7">
-      <div class="wrap">
+      <div class="wrap contact">
         <h2>Contate-Nos</h2>
         <p>(404) 899-5451 info@avenir.com 190 Ottley Drive, GA 30324</p>
-        <div class="">
-          <ul class="socialIcons">
-            <li>
-              <a href="">Instagram</a>
-            </li>
-            <li>
-              <a href="">Facebook</a>
-            </li>
-            <li>
-              <a href="">X</a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li>
+            <a href="">Instagram</a>
+          </li>
+          <li>
+            <a href="">Facebook</a>
+          </li>
+          <li>
+            <a href="">X</a>
+          </li>
+        </ul>
       </div>
 
-      <form action="#"></form>
+      <form action="#" method="post" target="_blank" name="contato" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+          <legend>Envie Sua Mensagem</legend>
+          <input type="text" id="nameUser" name="nome" placeholder="Insira Seu Nome" required>
+          <input type="email" id="email" name="email" placeholder="Insira Seu E-mail" required>
+          <textarea name="mensagem" id="mensagemUser" cols="30" rows="8" placeholder="Insira Sua Mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
     </section>
 
     <footer></footer>
