@@ -2,20 +2,22 @@
   margin: 0;
 }
 
+
+
 body {
-  display: block;
+  width: 100%;
+  overflow: auto;
   background-color: rgba(38, 9, 9, 0.427);
   color: white;
   position: relative;
 
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
 header {
   display: block;
   margin: auto;
-  
 }
 
 #navBar {
@@ -34,13 +36,13 @@ header {
   overflow: visible;
 }
 
-section {
+header section {
   display: flex;
- justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .u-section-2 {
-  background-image: url("./imgs/Group1.png");
+  background-image: url('./imgs/Group1.png');
   background-position: 50% 50%;
 }
 
@@ -88,7 +90,7 @@ section {
 h1.u-title {
   font-size: 3rem;
   line-height: 1.1;
-  font-family: "Roboto", serif;
+  font-family: 'Roboto', serif;
   font-weight: 700;
 }
 
@@ -96,23 +98,247 @@ h1.u-title {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.12rem;
-  margin: 20px 204px 0 30px;
+  margin: 20px 204px 0 -45px;
 }
 
-.u-align-left {
+.alingLeft {
   text-align: left;
+  margin-left: 20px;
 }
 
 .u-line-1 {
   width: 165px;
   height: 20px;
   transform-origin: right center 0;
-  margin: 30px auto 55px 30px;
+  margin: 30px auto 55px -45px;
 }
 
 .u-border-palette-3-base {
-  border-color: yellow;
-  background-color: yellow;
+  border-color: #f8dd2a;
+  background-color: #f8dd2a;
   border-width: 20px;
 }
 
+/* Alinhando textos do lado esquerdo */
+.alignText {
+  align-items: baseline;
+  margin-left: 20px;
+}
+
+
+#section3,
+#section4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#section4 h2 {
+  padding: 38px 22px 54px 0;
+}
+
+.boxSectionColorY {
+  background-color: #f8dd2a;
+  color: black;
+}
+
+.boxSectionColorP {
+  background-color: purple;
+}
+
+.boxSection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px 50px 10px;
+  justify-content: center
+}
+
+h2 {
+  position: relative;
+  font-size: 44px;
+  margin-top: 0;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  z-index: 1;
+}
+
+p {
+  font-size: 18px;
+  padding: 25px 0;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+button {
+  background-color: #e72e6c;
+  color: #fff;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.section4BoxColor1 {
+  background-color: #e72e6c;
+}
+
+.section4BoxColor1 button {
+  background-color: purple;
+}
+
+.section4BoxColor2 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.section3Img01,
+.section3Img02,
+.section4Img01 {
+  width: auto;
+  height: auto;
+  background-size: cover;
+}
+
+.section3Img01 {
+  position: absolute;
+  padding: 79px 105px;
+  margin: -105px -31px;
+  background-image: url('./imgs/01.png');
+  z-index: 0;
+}
+
+.section3Img02 {
+  position: absolute;
+  padding: 0 75px 1px 1px;
+  margin: 421px 512px;
+  background-image: url('./imgs/02.png');
+  z-index: 0;
+}
+
+.section4Img01 {
+  width: 40px;
+  height: 40px;
+  background-image: url('./imgs/section4img1.png');
+}
+
+.section3Img {
+  width: auto;
+  height: auto;
+  background-size: cover;
+
+  background-image: url('./imgs/div.u-container-style.png');
+}
+
+#section4 {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 8rem;
+
+  background-image: url('./imgs/trabalhos.jpg');
+}
+
+#section5 {
+  display: grid;
+
+  grid-template-columns: auto 33.33% 33.33%;
+  grid-template-areas:
+    'box1 box2 box5'
+    'box3 box4 box5';
+}
+
+.box1 {
+  background-image: url('./imgs/section5-box1.png');
+  grid-area: box1;
+}
+.box2 {
+  background-image: url('./imgs/section5-box2.png');
+  grid-area: box2;
+}
+.box3 {
+  background-image: url('./imgs/section5-box3.png');
+  grid-area: box3;
+}
+.box4 {
+  background-image: url('./imgs/section5-box4.png');
+  grid-area: box4;
+}
+.box5 {
+  grid-area: box5;
+  background-color: #32064a;
+  height: 75vh;
+  width: fit-content;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+}
+
+.box5Padding {
+  padding: 77px 0 25px;
+}
+.box5Padding h2 {
+  margin-bottom: 50px;
+}
+
+#section6 {
+  display: grid;
+  grid-template-areas:
+    'setor1 setor2 setor2'
+    'setor1 setor3 setor4';
+  grid-template-columns: 50% 25% 25%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px 50px 50px;
+}
+
+.setor1 {
+  grid-area: setor1;
+  background-color: #f8dd2a;
+  color: black;
+}
+
+.setor2 {
+  background-color: peru;
+  grid-area: setor2;
+  padding: 0 39px 25px 25px;
+  align-items: baseline;
+}
+.setor3 {
+  background-image: url('./imgs/setor3.png');
+  grid-area: setor3;
+}
+.setor4 {
+  background-image: url('./imgs/setor4.png');
+  grid-area: setor4;
+}
+
+.setor1-img,
+.setor1,
+.setor2,
+.setor3,
+.setor4 {
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.setor1 img {
+  width: 60vh;
+  margin: auto;
+  padding-top: 25px;
+  align-items: center;
+}
+
+#section7 {
+  display: flex;
+  flex-direction: column;
+}
