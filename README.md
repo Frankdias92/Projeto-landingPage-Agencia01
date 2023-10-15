@@ -10,8 +10,13 @@ Como um entusiasta de design web e marketing digital, decidi criar uma landing p
 
 A primeira etapa do projeto foi criar o design e a estrutura da landing page. Usei HTML e CSS para desenvolver uma página atraente e funcional. Optei por um layout limpo e responsivo, garantindo que a página fosse acessível em dispositivos móveis e desktop. Isso incluiu a criação de uma navegação intuitiva, seções informativas e elementos visuais.
 
-[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1)
-[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Modelo%20no%20Figma-fff?style=for-the-badge)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1)
+<a href="https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A2&mode=design&t=hSeyHUbIVyfvfGjQ-1" target="_blank">
+  <img src="https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F" alt="Link do Lab">
+</a>
+
+<a href="https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1" target="_blank">
+  <img src="https://img.shields.io/badge/Acesse%20o%20Modelo%20no%20Figma-fff?style=for-the-badge" alt="Link do Lab">
+</a>
 
 ## Conteúdo e Mensagens-chave
 
