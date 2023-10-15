@@ -1,17 +1,17 @@
-###Fala dev 👋🏼
+### Fala dev 👋🏼
 
-#Landing Page fictícia de uma Agência de Marketing.
+# Landing Page fictícia de uma Agência de Marketing.
 
 Como um entusiasta de design web e marketing digital, decidi criar uma landing page para uma agência de marketing fictícia. Este projeto foi uma oportunidade para demonstrar minhas habilidades em HTML, CSS e estratégias de posicionamento na web. Neste artigo, vou compartilhar os principais aspectos do projeto e os desafios que enfrentei ao longo do caminho.
 
-![Texto Alternativo](./assets/imgs/preview/Cover.png)
+![Imagem do Projeto](./assets/imgs/preview/Cover.png)
 
 ## Design e Estrutura
 
 A primeira etapa do projeto foi criar o design e a estrutura da landing page. Usei HTML e CSS para desenvolver uma página atraente e funcional. Optei por um layout limpo e responsivo, garantindo que a página fosse acessível em dispositivos móveis e desktop. Isso incluiu a criação de uma navegação intuitiva, seções informativas e elementos visuais.
 
-[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1)
-[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Modelo%20no%20Figma-fff?style=for-the-badge)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1)
+[![Link do Lab](https://img.shields.io/badge/▶-000?style=for-the-badge&logo=movie&logoColor=E94D5F)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A2&mode=design&t=hSeyHUbIVyfvfGjQ-1){:target="_blank"}
+[![Link do Lab](https://img.shields.io/badge/Acesse%20o%20Modelo%20no%20Figma-fff?style=for-the-badge)](https://www.figma.com/file/wObzpCjaCTENfYElzPCkBx/Projeto-landingPage-Agencia01?type=design&node-id=33%3A31&mode=design&t=TVdkzpJnJ6eczH2q-1){:target="_blank"}
 
 ## Conteúdo e Mensagens-chave
 
